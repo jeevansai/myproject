@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/home/kishorekumar/kiransai/ImageMagick-6.9.1-2'
+top_builddir='/home/kishorekumar/kiransai/ImageMagick-6.9.1-2'
+
+set -a
+COMPARE="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities/compare"
+COMPOSITE="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities/composite"
+CONJURE="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities/conjure"
+CONVERT="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities/convert"
+DISPLAY="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities/display"
+IDENTIFY="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities/identify"
+MONTAGE="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities/montage" 
+VALIDATE="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/tests/validate"
+DRAWTEST="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/tests/drawtest"
+WANDTEST="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/tests/wandtest"
+LD_LIBRARY_PATH="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/coders"
+MAGICK_CONFIGURE_PATH="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/config:/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/config"
+MAGICK_FILTER_MODULE_PATH="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/filters"
+PATH="/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/utilities:/home/kishorekumar/kiransai/ImageMagick-6.9.1-2/tests:${PATH}"
+set +a
